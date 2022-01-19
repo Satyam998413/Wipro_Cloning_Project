@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    position:fixed;
+    width: 100vw;
+    top: 0px;
+    z-index: 2;
+    background-color: white;
+    opacity: 5;
+}
+main{
+    width: 100vwvw;
+}
+footer{
+    width: 100vwvw;
+}
+.nav-item a{
+    margin: 0px 9px;   
+    font-size: medium;
+    font-weight: bolder;
+    font-style:oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(12, 248, 44);
+    padding-left: 20px;
+}
+
+
+a{
+    font-style: none;
+}
+.navbar-light .navbar-nav .nav-link {
+
+    color: rgba(7, 10, 172, 0.979);
+
+}
+.collapse {
+
+}
+
+.Searchbar {
+  width: 100vw;
+  height: 85vh;
+  background-image: url(img/searchbg.jpg);
+  z-index: 1;
+  position:relative;
+margin-top: 15vh;
+  margin-right: 50px;
+}
+.Searchbar input{
+  margin-top:14vh;
+  text-decoration: none;
+  background-color: rgb(17, 6, 2);
+  color: white;
+  width: 70vw;
+  margin-left: 13vw;
+  padding-left: 3px;
+  font-size: x-large;
+  height: 10vh;
+
+  
+}
+.Searchbar button img{
+  margin-top:13vh;
+  text-decoration: none;
+  border:2px solid white;
+  border-radius: 4px;
+
+  
+}
+.header2 {
+  width: 100vw;
+  margin-top: 15vh;
+  background-position: center;
+  background-image: url(img/header34.jpg);
+  background-size: 500px;
+
+}
+
+.medium {
+  width: 100vw;
+}
+
+.foot2 a {
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.foot3 a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  font-weight: lighter;
+}
